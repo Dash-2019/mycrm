@@ -7,7 +7,7 @@ CREATE TABLE audit_log_contact (
     changed_at TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP  -- 変更時刻
 );
 
-
+--make new 2026/4/2
 CREATE OR REPLACE FUNCTION log_contact_changes()
 RETURNS TRIGGER AS $$
 BEGIN
